@@ -77,7 +77,9 @@ URLs = Qualquer url http, https, ftp válida
 ```
 
 IPv4 = Qualquer IPv4 válido
-```\b(?:(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\b
+```
+\b(?:(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\b
+
 ```
 
 URLs ou IPv4 = As 2 regex acima juntas
