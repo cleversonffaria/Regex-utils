@@ -10,6 +10,12 @@ Email = exemplo@email.com
 /^[a-z0-9.]+@[a-z0-9]+\.([a-z]{2,})+\.?([a-z]+)?$/i
 ```
 
+Password = 
+Verifica: Min 8 caracteres - Min 1 Caractere Especial - Min 1 Letra minúscula - Min 1 Letra maiúscula - Min 1 Número
+``` 
+^(?=.*?[A-Z])(?=(.*[a-z]){1,})(?=(.*[\d]){1,})(?=(.*[\W]){1,})(?!.*\s).{8,}$
+```
+
 CPF
 ```
 /(^\d{3}[\.]?\d{3}[\.]?\d{3}[\-]?\d{2}$)/;
